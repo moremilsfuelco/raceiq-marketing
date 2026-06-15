@@ -1,0 +1,608 @@
+0 verbose cli /Users/morganmitchell/.nvm/versions/node/v20.20.2/bin/node /Users/morganmitchell/.nvm/versions/node/v20.20.2/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.2
+3 silly config load:file:/Users/morganmitchell/.nvm/versions/node/v20.20.2/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/.npmrc
+5 silly config load:file:/Users/morganmitchell/.npmrc
+6 silly config load:file:/Users/morganmitchell/.nvm/versions/node/v20.20.2/etc/npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--offline" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/.npm-cache/_logs/2026-06-15T00_25_44_750Z-
+10 verbose logfile /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/.npm-cache/_logs/2026-06-15T00_25_44_750Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit report null
+16 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-win32-x64-msvc
+17 silly reify mark deleted [
+17 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+17 silly reify ]
+18 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+19 silly reify mark deleted [
+19 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+19 silly reify ]
+20 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+21 silly reify mark deleted [
+21 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+21 silly reify ]
+22 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-wasm32-wasi
+23 silly reify mark deleted [
+23 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-wasm32-wasi'
+23 silly reify ]
+24 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@emnapi/core
+25 silly reify mark deleted [
+25 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@emnapi/core'
+25 silly reify ]
+26 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-wasm32-wasi/node_modules/@emnapi/runtime
+27 silly reify mark deleted [
+27 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-wasm32-wasi/node_modules/@emnapi/runtime'
+27 silly reify ]
+28 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@napi-rs/wasm-runtime
+29 silly reify mark deleted [
+29 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@napi-rs/wasm-runtime'
+29 silly reify ]
+30 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@emnapi/wasi-threads
+31 silly reify mark deleted [
+31 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@emnapi/wasi-threads'
+31 silly reify ]
+32 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@tybys/wasm-util
+33 silly reify mark deleted [
+33 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@tybys/wasm-util'
+33 silly reify ]
+34 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-openharmony-arm64
+35 silly reify mark deleted [
+35 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-openharmony-arm64'
+35 silly reify ]
+36 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-x64-musl
+37 silly reify mark deleted [
+37 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-x64-musl'
+37 silly reify ]
+38 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-x64-gnu
+39 silly reify mark deleted [
+39 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+39 silly reify ]
+40 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+41 silly reify mark deleted [
+41 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+41 silly reify ]
+42 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+43 silly reify mark deleted [
+43 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+43 silly reify ]
+44 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+45 silly reify mark deleted [
+45 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+45 silly reify ]
+46 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+47 silly reify mark deleted [
+47 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+47 silly reify ]
+48 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-loong64-musl
+49 silly reify mark deleted [
+49 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-loong64-musl'
+49 silly reify ]
+50 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-loong64-gnu
+51 silly reify mark deleted [
+51 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-loong64-gnu'
+51 silly reify ]
+52 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-arm64-musl
+53 silly reify mark deleted [
+53 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+53 silly reify ]
+54 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+55 silly reify mark deleted [
+55 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+55 silly reify ]
+56 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+57 silly reify mark deleted [
+57 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+57 silly reify ]
+58 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+59 silly reify mark deleted [
+59 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+59 silly reify ]
+60 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-freebsd-x64
+61 silly reify mark deleted [
+61 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-freebsd-x64'
+61 silly reify ]
+62 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-darwin-x64
+63 silly reify mark deleted [
+63 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-darwin-x64'
+63 silly reify ]
+64 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-android-arm64
+65 silly reify mark deleted [
+65 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-android-arm64'
+65 silly reify ]
+66 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-android-arm-eabi
+67 silly reify mark deleted [
+67 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@unrs/resolver-binding-android-arm-eabi'
+67 silly reify ]
+68 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-win32-x64-msvc
+69 silly reify mark deleted [
+69 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-win32-x64-msvc'
+69 silly reify ]
+70 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-win32-arm64-msvc
+71 silly reify mark deleted [
+71 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-win32-arm64-msvc'
+71 silly reify ]
+72 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-linux-x64-musl
+73 silly reify mark deleted [
+73 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-linux-x64-musl'
+73 silly reify ]
+74 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-linux-x64-gnu
+75 silly reify mark deleted [
+75 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-linux-x64-gnu'
+75 silly reify ]
+76 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-linux-arm64-musl
+77 silly reify mark deleted [
+77 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-linux-arm64-musl'
+77 silly reify ]
+78 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-linux-arm64-gnu
+79 silly reify mark deleted [
+79 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-linux-arm64-gnu'
+79 silly reify ]
+80 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-darwin-x64
+81 silly reify mark deleted [
+81 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@next/swc-darwin-x64'
+81 silly reify ]
+82 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-win32-x64
+83 silly reify mark deleted [
+83 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-win32-x64'
+83 silly reify ]
+84 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-win32-ia32
+85 silly reify mark deleted [
+85 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-win32-ia32'
+85 silly reify ]
+86 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-win32-arm64
+87 silly reify mark deleted [
+87 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-win32-arm64'
+87 silly reify ]
+88 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-wasm32
+89 silly reify mark deleted [
+89 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-wasm32'
+89 silly reify ]
+90 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linuxmusl-x64
+91 silly reify mark deleted [
+91 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linuxmusl-x64'
+91 silly reify ]
+92 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linuxmusl-arm64
+93 silly reify mark deleted [
+93 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linuxmusl-arm64'
+93 silly reify ]
+94 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-x64
+95 silly reify mark deleted [
+95 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-x64'
+95 silly reify ]
+96 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-s390x
+97 silly reify mark deleted [
+97 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-s390x'
+97 silly reify ]
+98 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-riscv64
+99 silly reify mark deleted [
+99 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-riscv64'
+99 silly reify ]
+100 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-ppc64
+101 silly reify mark deleted [
+101 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-ppc64'
+101 silly reify ]
+102 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-arm64
+103 silly reify mark deleted [
+103 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-arm64'
+103 silly reify ]
+104 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-arm
+105 silly reify mark deleted [
+105 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-linux-arm'
+105 silly reify ]
+106 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linuxmusl-x64
+107 silly reify mark deleted [
+107 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linuxmusl-x64'
+107 silly reify ]
+108 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linuxmusl-arm64
+109 silly reify mark deleted [
+109 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+109 silly reify ]
+110 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-x64
+111 silly reify mark deleted [
+111 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-x64'
+111 silly reify ]
+112 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-s390x
+113 silly reify mark deleted [
+113 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-s390x'
+113 silly reify ]
+114 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-riscv64
+115 silly reify mark deleted [
+115 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-riscv64'
+115 silly reify ]
+116 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-ppc64
+117 silly reify mark deleted [
+117 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-ppc64'
+117 silly reify ]
+118 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-arm64
+119 silly reify mark deleted [
+119 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-arm64'
+119 silly reify ]
+120 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-arm
+121 silly reify mark deleted [
+121 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-linux-arm'
+121 silly reify ]
+122 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-darwin-x64
+123 silly reify mark deleted [
+123 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-libvips-darwin-x64'
+123 silly reify ]
+124 verbose reify failed optional dependency /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-darwin-x64
+125 silly reify mark deleted [
+125 silly reify   '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/@img/sharp-darwin-x64'
+125 silly reify ]
+126 info run sharp@0.34.5 install node_modules/sharp node install/check.js || npm run build
+127 info run sharp@0.34.5 install { code: 0, signal: null }
+128 info run unrs-resolver@1.12.2 postinstall node_modules/unrs-resolver node postinstall.js
+129 info run unrs-resolver@1.12.2 postinstall { code: 0, signal: null }
+130 silly ADD node_modules/yocto-queue
+131 silly ADD node_modules/word-wrap
+132 silly ADD node_modules/which-typed-array
+133 silly ADD node_modules/which-collection
+134 silly ADD node_modules/which-builtin-type
+135 silly ADD node_modules/which-boxed-primitive
+136 silly ADD node_modules/which
+137 silly ADD node_modules/uri-js
+138 silly ADD node_modules/unrs-resolver
+139 silly ADD node_modules/undici-types
+140 silly ADD node_modules/unbox-primitive
+141 silly ADD node_modules/typescript
+142 silly ADD node_modules/typed-array-length
+143 silly ADD node_modules/typed-array-byte-offset
+144 silly ADD node_modules/typed-array-byte-length
+145 silly ADD node_modules/typed-array-buffer
+146 silly ADD node_modules/type-check
+147 silly ADD node_modules/tslib
+148 silly ADD node_modules/tsconfig-paths
+149 silly ADD node_modules/ts-api-utils
+150 silly ADD node_modules/to-regex-range
+151 silly ADD node_modules/tinyglobby
+152 silly ADD node_modules/tinyglobby/node_modules/picomatch
+153 silly ADD node_modules/tinyglobby/node_modules/fdir
+154 silly ADD node_modules/supports-preserve-symlinks-flag
+155 silly ADD node_modules/supports-color
+156 silly ADD node_modules/styled-jsx
+157 silly ADD node_modules/strip-json-comments
+158 silly ADD node_modules/strip-bom
+159 silly ADD node_modules/string.prototype.trimstart
+160 silly ADD node_modules/string.prototype.trimend
+161 silly ADD node_modules/string.prototype.trim
+162 silly ADD node_modules/string.prototype.repeat
+163 silly ADD node_modules/string.prototype.matchall
+164 silly ADD node_modules/string.prototype.includes
+165 silly ADD node_modules/stop-iteration-iterator
+166 silly ADD node_modules/stable-hash
+167 silly ADD node_modules/source-map-js
+168 silly ADD node_modules/side-channel-weakmap
+169 silly ADD node_modules/side-channel-map
+170 silly ADD node_modules/side-channel-list
+171 silly ADD node_modules/side-channel
+172 silly ADD node_modules/shebang-regex
+173 silly ADD node_modules/shebang-command
+174 silly ADD node_modules/sharp
+175 silly ADD node_modules/set-proto
+176 silly ADD node_modules/set-function-name
+177 silly ADD node_modules/set-function-length
+178 silly ADD node_modules/semver
+179 silly ADD node_modules/scheduler
+180 silly ADD node_modules/safe-regex-test
+181 silly ADD node_modules/safe-push-apply
+182 silly ADD node_modules/safe-array-concat
+183 silly ADD node_modules/run-parallel
+184 silly ADD node_modules/reusify
+185 silly ADD node_modules/resolve-pkg-maps
+186 silly ADD node_modules/resolve-from
+187 silly ADD node_modules/resolve
+188 silly ADD node_modules/regexp.prototype.flags
+189 silly ADD node_modules/reflect.getprototypeof
+190 silly ADD node_modules/react-is
+191 silly ADD node_modules/react-dom
+192 silly ADD node_modules/react
+193 silly ADD node_modules/queue-microtask
+194 silly ADD node_modules/punycode
+195 silly ADD node_modules/prop-types
+196 silly ADD node_modules/prelude-ls
+197 silly ADD node_modules/postcss
+198 silly ADD node_modules/possible-typed-array-names
+199 silly ADD node_modules/picomatch
+200 silly ADD node_modules/picocolors
+201 silly ADD node_modules/path-parse
+202 silly ADD node_modules/path-key
+203 silly ADD node_modules/path-exists
+204 silly ADD node_modules/parent-module
+205 silly ADD node_modules/p-locate
+206 silly ADD node_modules/p-limit
+207 silly ADD node_modules/own-keys
+208 silly ADD node_modules/optionator
+209 silly ADD node_modules/object.values
+210 silly ADD node_modules/object.groupby
+211 silly ADD node_modules/object.fromentries
+212 silly ADD node_modules/object.entries
+213 silly ADD node_modules/object.assign
+214 silly ADD node_modules/object-keys
+215 silly ADD node_modules/object-inspect
+216 silly ADD node_modules/object-assign
+217 silly ADD node_modules/node-exports-info
+218 silly ADD node_modules/node-exports-info/node_modules/semver
+219 silly ADD node_modules/next
+220 silly ADD node_modules/natural-compare
+221 silly ADD node_modules/napi-postinstall
+222 silly ADD node_modules/nanoid
+223 silly ADD node_modules/ms
+224 silly ADD node_modules/minimist
+225 silly ADD node_modules/minimatch
+226 silly ADD node_modules/micromatch
+227 silly ADD node_modules/merge2
+228 silly ADD node_modules/math-intrinsics
+229 silly ADD node_modules/loose-envify
+230 silly ADD node_modules/lodash.merge
+231 silly ADD node_modules/locate-path
+232 silly ADD node_modules/levn
+233 silly ADD node_modules/language-tags
+234 silly ADD node_modules/language-subtag-registry
+235 silly ADD node_modules/keyv
+236 silly ADD node_modules/jsx-ast-utils
+237 silly ADD node_modules/json5
+238 silly ADD node_modules/json-stable-stringify-without-jsonify
+239 silly ADD node_modules/json-schema-traverse
+240 silly ADD node_modules/json-buffer
+241 silly ADD node_modules/js-yaml
+242 silly ADD node_modules/js-tokens
+243 silly ADD node_modules/iterator.prototype
+244 silly ADD node_modules/isexe
+245 silly ADD node_modules/isarray
+246 silly ADD node_modules/is-weakset
+247 silly ADD node_modules/is-weakref
+248 silly ADD node_modules/is-weakmap
+249 silly ADD node_modules/is-typed-array
+250 silly ADD node_modules/is-symbol
+251 silly ADD node_modules/is-string
+252 silly ADD node_modules/is-shared-array-buffer
+253 silly ADD node_modules/is-set
+254 silly ADD node_modules/is-regex
+255 silly ADD node_modules/is-number-object
+256 silly ADD node_modules/is-number
+257 silly ADD node_modules/is-negative-zero
+258 silly ADD node_modules/is-map
+259 silly ADD node_modules/is-glob
+260 silly ADD node_modules/is-generator-function
+261 silly ADD node_modules/is-finalizationregistry
+262 silly ADD node_modules/is-extglob
+263 silly ADD node_modules/is-document.all
+264 silly ADD node_modules/is-date-object
+265 silly ADD node_modules/is-data-view
+266 silly ADD node_modules/is-core-module
+267 silly ADD node_modules/is-callable
+268 silly ADD node_modules/is-bun-module
+269 silly ADD node_modules/is-boolean-object
+270 silly ADD node_modules/is-bigint
+271 silly ADD node_modules/is-async-function
+272 silly ADD node_modules/is-array-buffer
+273 silly ADD node_modules/internal-slot
+274 silly ADD node_modules/imurmurhash
+275 silly ADD node_modules/import-fresh
+276 silly ADD node_modules/ignore
+277 silly ADD node_modules/hasown
+278 silly ADD node_modules/has-tostringtag
+279 silly ADD node_modules/has-symbols
+280 silly ADD node_modules/has-proto
+281 silly ADD node_modules/has-property-descriptors
+282 silly ADD node_modules/has-flag
+283 silly ADD node_modules/has-bigints
+284 silly ADD node_modules/gopd
+285 silly ADD node_modules/globalthis
+286 silly ADD node_modules/globals
+287 silly ADD node_modules/glob-parent
+288 silly ADD node_modules/get-tsconfig
+289 silly ADD node_modules/get-symbol-description
+290 silly ADD node_modules/get-proto
+291 silly ADD node_modules/get-intrinsic
+292 silly ADD node_modules/generator-function
+293 silly ADD node_modules/functions-have-names
+294 silly ADD node_modules/function.prototype.name
+295 silly ADD node_modules/function-bind
+296 silly ADD node_modules/for-each
+297 silly ADD node_modules/flatted
+298 silly ADD node_modules/flat-cache
+299 silly ADD node_modules/find-up
+300 silly ADD node_modules/fill-range
+301 silly ADD node_modules/file-entry-cache
+302 silly ADD node_modules/fastq
+303 silly ADD node_modules/fast-levenshtein
+304 silly ADD node_modules/fast-json-stable-stringify
+305 silly ADD node_modules/fast-glob
+306 silly ADD node_modules/fast-glob/node_modules/glob-parent
+307 silly ADD node_modules/fast-deep-equal
+308 silly ADD node_modules/esutils
+309 silly ADD node_modules/estraverse
+310 silly ADD node_modules/esrecurse
+311 silly ADD node_modules/esquery
+312 silly ADD node_modules/espree
+313 silly ADD node_modules/eslint-visitor-keys
+314 silly ADD node_modules/eslint-scope
+315 silly ADD node_modules/eslint-plugin-react-hooks
+316 silly ADD node_modules/eslint-plugin-react
+317 silly ADD node_modules/eslint-plugin-react/node_modules/semver
+318 silly ADD node_modules/eslint-plugin-jsx-a11y
+319 silly ADD node_modules/eslint-plugin-import
+320 silly ADD node_modules/eslint-plugin-import/node_modules/semver
+321 silly ADD node_modules/eslint-plugin-import/node_modules/debug
+322 silly ADD node_modules/eslint-module-utils
+323 silly ADD node_modules/eslint-module-utils/node_modules/debug
+324 silly ADD node_modules/eslint-import-resolver-typescript
+325 silly ADD node_modules/eslint-import-resolver-node
+326 silly ADD node_modules/eslint-import-resolver-node/node_modules/debug
+327 silly ADD node_modules/eslint-config-next
+328 silly ADD node_modules/eslint
+329 silly ADD node_modules/escape-string-regexp
+330 silly ADD node_modules/es-to-primitive
+331 silly ADD node_modules/es-shim-unscopables
+332 silly ADD node_modules/es-set-tostringtag
+333 silly ADD node_modules/es-object-atoms
+334 silly ADD node_modules/es-iterator-helpers
+335 silly ADD node_modules/es-errors
+336 silly ADD node_modules/es-define-property
+337 silly ADD node_modules/es-abstract
+338 silly ADD node_modules/emoji-regex
+339 silly ADD node_modules/dunder-proto
+340 silly ADD node_modules/doctrine
+341 silly ADD node_modules/detect-libc
+342 silly ADD node_modules/define-properties
+343 silly ADD node_modules/define-data-property
+344 silly ADD node_modules/deep-is
+345 silly ADD node_modules/debug
+346 silly ADD node_modules/data-view-byte-offset
+347 silly ADD node_modules/data-view-byte-length
+348 silly ADD node_modules/data-view-buffer
+349 silly ADD node_modules/damerau-levenshtein
+350 silly ADD node_modules/csstype
+351 silly ADD node_modules/cross-spawn
+352 silly ADD node_modules/concat-map
+353 silly ADD node_modules/color-name
+354 silly ADD node_modules/color-convert
+355 silly ADD node_modules/client-only
+356 silly ADD node_modules/chalk
+357 silly ADD node_modules/caniuse-lite
+358 silly ADD node_modules/callsites
+359 silly ADD node_modules/call-bound
+360 silly ADD node_modules/call-bind-apply-helpers
+361 silly ADD node_modules/call-bind
+362 silly ADD node_modules/braces
+363 silly ADD node_modules/brace-expansion
+364 silly ADD node_modules/baseline-browser-mapping
+365 silly ADD node_modules/balanced-match
+366 silly ADD node_modules/axobject-query
+367 silly ADD node_modules/axe-core
+368 silly ADD node_modules/available-typed-arrays
+369 silly ADD node_modules/async-function
+370 silly ADD node_modules/ast-types-flow
+371 silly ADD node_modules/arraybuffer.prototype.slice
+372 silly ADD node_modules/array.prototype.tosorted
+373 silly ADD node_modules/array.prototype.flatmap
+374 silly ADD node_modules/array.prototype.flat
+375 silly ADD node_modules/array.prototype.findlastindex
+376 silly ADD node_modules/array.prototype.findlast
+377 silly ADD node_modules/array-includes
+378 silly ADD node_modules/array-buffer-byte-length
+379 silly ADD node_modules/aria-query
+380 silly ADD node_modules/argparse
+381 silly ADD node_modules/ansi-styles
+382 silly ADD node_modules/ajv
+383 silly ADD node_modules/acorn-jsx
+384 silly ADD node_modules/acorn
+385 silly ADD
+386 silly ADD
+387 silly ADD
+388 silly ADD
+389 silly ADD node_modules/@emnapi/runtime
+390 silly ADD
+391 silly ADD
+392 silly ADD
+393 silly ADD
+394 silly ADD
+395 silly ADD
+396 silly ADD
+397 silly ADD
+398 silly ADD
+399 silly ADD
+400 silly ADD
+401 silly ADD
+402 silly ADD
+403 silly ADD
+404 silly ADD
+405 silly ADD node_modules/@unrs/resolver-binding-darwin-arm64
+406 silly ADD
+407 silly ADD
+408 silly ADD node_modules/@typescript-eslint/visitor-keys
+409 silly ADD node_modules/@typescript-eslint/visitor-keys/node_modules/eslint-visitor-keys
+410 silly ADD node_modules/@typescript-eslint/utils
+411 silly ADD node_modules/@typescript-eslint/typescript-estree
+412 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch
+413 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion
+414 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/balanced-match
+415 silly ADD node_modules/@typescript-eslint/types
+416 silly ADD node_modules/@typescript-eslint/type-utils
+417 silly ADD node_modules/@typescript-eslint/tsconfig-utils
+418 silly ADD node_modules/@typescript-eslint/scope-manager
+419 silly ADD node_modules/@typescript-eslint/project-service
+420 silly ADD node_modules/@typescript-eslint/parser
+421 silly ADD node_modules/@typescript-eslint/eslint-plugin
+422 silly ADD node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore
+423 silly ADD node_modules/@types/react-dom
+424 silly ADD node_modules/@types/react
+425 silly ADD node_modules/@types/node
+426 silly ADD node_modules/@types/json5
+427 silly ADD node_modules/@types/json-schema
+428 silly ADD node_modules/@types/estree
+429 silly ADD
+430 silly ADD node_modules/@swc/helpers
+431 silly ADD node_modules/@rushstack/eslint-patch
+432 silly ADD node_modules/@rtsao/scc
+433 silly ADD node_modules/@nolyfill/is-core-module
+434 silly ADD node_modules/@nodelib/fs.walk
+435 silly ADD node_modules/@nodelib/fs.stat
+436 silly ADD node_modules/@nodelib/fs.scandir
+437 silly ADD
+438 silly ADD
+439 silly ADD
+440 silly ADD
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD node_modules/@next/swc-darwin-arm64
+445 silly ADD node_modules/@next/eslint-plugin-next
+446 silly ADD node_modules/@next/env
+447 silly ADD
+448 silly ADD
+449 silly ADD
+450 silly ADD
+451 silly ADD
+452 silly ADD
+453 silly ADD
+454 silly ADD
+455 silly ADD
+456 silly ADD
+457 silly ADD
+458 silly ADD
+459 silly ADD
+460 silly ADD
+461 silly ADD
+462 silly ADD
+463 silly ADD
+464 silly ADD
+465 silly ADD
+466 silly ADD
+467 silly ADD
+468 silly ADD
+469 silly ADD node_modules/@img/sharp-libvips-darwin-arm64
+470 silly ADD
+471 silly ADD node_modules/@img/sharp-darwin-arm64
+472 silly ADD node_modules/@img/colour
+473 silly ADD node_modules/@humanwhocodes/retry
+474 silly ADD node_modules/@humanwhocodes/module-importer
+475 silly ADD node_modules/@humanfs/types
+476 silly ADD node_modules/@humanfs/node
+477 silly ADD node_modules/@humanfs/core
+478 silly ADD node_modules/@eslint/plugin-kit
+479 silly ADD node_modules/@eslint/plugin-kit/node_modules/@eslint/core
+480 silly ADD node_modules/@eslint/object-schema
+481 silly ADD node_modules/@eslint/js
+482 silly ADD node_modules/@eslint/eslintrc
+483 silly ADD node_modules/@eslint/core
+484 silly ADD node_modules/@eslint/config-helpers
+485 silly ADD node_modules/@eslint/config-array
+486 silly ADD node_modules/@eslint-community/regexpp
+487 silly ADD node_modules/@eslint-community/eslint-utils
+488 silly ADD node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys
+489 silly ADD
+490 silly ADD node_modules/@emnapi/runtime
+491 silly ADD
+492 verbose cwd /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing
+493 verbose os Darwin 25.5.0
+494 verbose node v20.20.2
+495 verbose npm  v10.8.2
+496 verbose exit 0
+497 info ok

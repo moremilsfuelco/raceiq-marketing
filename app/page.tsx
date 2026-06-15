@@ -3,10 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { AppCta } from "@/components/AppCta";
 import { ArticleCard } from "@/components/ArticleCard";
+import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
 import { PhoneMockup } from "@/components/PhoneMockup";
+import { ProductVisuals } from "@/components/ProductVisuals";
 import { articles } from "@/lib/articles";
-import { site } from "@/lib/site";
+import { appStorePlaceholder, site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "The Running Coach That Adapts to Real Life",
@@ -25,7 +27,24 @@ const examples = [
   ["Worked late", "Move the hard workout, keep an easy run, and protect the long run."],
   ["Rode Peloton instead", "Count the aerobic work and leg fatigue instead of pretending it did not happen."],
   ["Slept terribly", "Lower the ask for today so consistency survives the week."],
-  ["Travel day", "Rebuild the week around the workouts that still fit."],
+  ["Need to move your long run", "Shift the anchor workout instead of cramming tired miles into a busy day."],
+];
+
+const heroQuestions = ["Worked late?", "Rode Peloton instead?", "Slept terribly?", "Need to move your long run?"];
+
+const coachExamples = [
+  [
+    "I’m tired today.",
+    "You sound under-recovered. I’d make today recovery or keep it easy instead of forcing intensity.",
+  ],
+  [
+    "I rode Peloton instead of my run.",
+    "I counted it as aerobic cross-training, not run mileage, and kept your next run easy.",
+  ],
+  [
+    "Can I move my long run?",
+    "Yes — I’d move it instead of cramming tired miles into a busy day.",
+  ],
 ];
 
 const storySlugs = [
@@ -66,9 +85,14 @@ export default function Home() {
               Worked late? Rode Peloton instead? Slept terribly? RaceIQ helps adjust your training
               so you can keep moving forward.
             </p>
+            <div className="hero-question-row" aria-label="RaceIQ adapts to real life examples">
+              {heroQuestions.map((question) => (
+                <span key={question}>{question}</span>
+              ))}
+            </div>
             <div className="hero-actions">
-              <a className="button" href="#app-store">App Store placeholder</a>
-              <Link className="button secondary" href="/why-raceiq">Read why RaceIQ exists</Link>
+              <a className="button" href={appStorePlaceholder}>Download on the App Store</a>
+              <Link className="button secondary" href="/why-i-built-raceiq">Read why RaceIQ exists</Link>
             </div>
             <div className="race-countdown">
               <span>Race day in 83 days</span>
@@ -76,6 +100,17 @@ export default function Home() {
             </div>
           </div>
           <PhoneMockup />
+        </div>
+      </section>
+
+      <section className="founder-strip">
+        <div className="container founder-strip-inner">
+          <strong>Built by Morgan</strong>
+          <p>
+            A runner who started at 210 lbs and now trains for marathons, trails, and ultras while
+            working full time.
+          </p>
+          <Link className="text-link" href="/why-i-built-raceiq">Why I built RaceIQ</Link>
         </div>
       </section>
 
@@ -139,6 +174,8 @@ export default function Home() {
         </div>
       </section>
 
+      <ProductVisuals />
+
       <section className="section founder-feature">
         <div className="container founder-grid">
           <div className="founder-kicker">Founder story</div>
@@ -181,6 +218,23 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section coach-example-section">
+        <div className="container">
+          <div className="section-head">
+            <span className="eyebrow">Coach examples</span>
+            <h2>Ask the kind of training questions real runners ask.</h2>
+          </div>
+          <div className="coach-example-list">
+            {coachExamples.map(([user, coach]) => (
+              <div className="coach-example" key={user}>
+                <div className="bubble runner">User: “{user}”</div>
+                <div className="bubble coach">RaceIQ: “{coach}”</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section">
         <div className="container">
           <div className="section-head">
@@ -208,6 +262,11 @@ export default function Home() {
                 <ArticleCard article={article} key={article.slug} />
               ))}
           </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          <EmailSignup />
         </div>
       </section>
       <AppCta />

@@ -16,4 +16,4 @@ export const site = {
   },
 };
 
-export const appStorePlaceholder = "#app-store";
+export const appStorePlaceholder = "https://apps.apple.com/us/app/raceiq-running-coach/id6764719754";

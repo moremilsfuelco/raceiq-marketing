@@ -1,0 +1,27 @@
+0 verbose cli /Users/morganmitchell/.nvm/versions/node/v20.20.2/bin/node /Users/morganmitchell/.nvm/versions/node/v20.20.2/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.2
+3 silly config load:file:/Users/morganmitchell/.nvm/versions/node/v20.20.2/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/.npmrc
+5 silly config load:file:/Users/morganmitchell/.npmrc
+6 silly config load:file:/Users/morganmitchell/.nvm/versions/node/v20.20.2/etc/npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--offline" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/.npm-cache/_logs/2026-06-15T01_28_36_667Z-
+10 verbose logfile /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/.npm-cache/_logs/2026-06-15T01_28_36_667Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 verbose stack Error: ENOTEMPTY: directory not empty, rmdir '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/locate-path'
+15 error code ENOTEMPTY
+16 error syscall rmdir
+17 error path /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/locate-path
+18 error errno -66
+19 error ENOTEMPTY: directory not empty, rmdir '/Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/node_modules/locate-path'
+20 verbose cwd /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing
+21 verbose os Darwin 25.5.0
+22 verbose node v20.20.2
+23 verbose npm  v10.8.2
+24 verbose exit -66
+25 verbose code -66
+26 error A complete log of this run can be found in: /Users/morganmitchell/Documents/Codex/2026-06-14/build-the-raceiq-marketing-seo-website/outputs/raceiq-marketing/.npm-cache/_logs/2026-06-15T01_28_36_667Z-debug-0.log

@@ -9,8 +9,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001799",
+    "cross-spawn": "^7.0.6",
+    "napi-postinstall": "^0.3.4",
     "next": "^16.2.9",
-    "react": "19.1.0",
+    "react": "^19.1.0",
     "react-dom": "19.1.0"
   },
   "devDependencies": {

@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { AppCta } from "@/components/AppCta";
+import { EmailSignup } from "@/components/EmailSignup";
 import { JsonLd } from "@/components/JsonLd";
 import { articleBySlug, articleUrl, type Article } from "@/lib/articles";
-import { site } from "@/lib/site";
+import { appStorePlaceholder, site } from "@/lib/site";
 
 export function ArticlePage({ article }: { article: Article }) {
   const schema = {
@@ -54,7 +55,7 @@ export function ArticlePage({ article }: { article: Article }) {
                 <div className="article-mid-cta" id="app-store">
                   <strong>Training plan meet real life?</strong>
                   <p>RaceIQ helps you decide whether to move, modify, or protect the next workout.</p>
-                  <Link className="button small" href="/">See RaceIQ</Link>
+                  <a className="button small" href={appStorePlaceholder}>Download on the App Store</a>
                 </div>
               ) : null}
             </section>
@@ -72,10 +73,11 @@ export function ArticlePage({ article }: { article: Article }) {
             <h2>The plan should adapt when the week changes.</h2>
             <p>{article.cta}</p>
             <div className="cta-row">
-              <Link className="button" href="/">See RaceIQ</Link>
+              <a className="button" href={appStorePlaceholder}>Download on the App Store</a>
               <Link className="button secondary" href="/why-raceiq">Why it is different</Link>
             </div>
           </div>
+          <EmailSignup compact />
           <h2>Related RaceIQ guides</h2>
           <ul className="related-links">
             {article.related.map((slug) => {

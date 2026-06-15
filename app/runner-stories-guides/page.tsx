@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ArticleCard } from "@/components/ArticleCard";
+import { EmailSignup } from "@/components/EmailSignup";
 import { articles } from "@/lib/articles";
 import { site } from "@/lib/site";
 
@@ -82,6 +83,11 @@ export default function RunnerStoriesGuidesPage() {
               <ArticleCard article={article} key={article.slug} />
             ))}
           </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          <EmailSignup />
         </div>
       </section>
     </>
