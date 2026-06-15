@@ -264,6 +264,278 @@ export const articles: Article[] = [
     cta: "RaceIQ helps runners adapt training when heat and humidity make the planned workout unrealistic.",
     related: ["running-when-tired", "adaptive-marathon-training-plan", "can-i-move-my-long-run"],
   },
+  {
+    slug: "why-i-started-running",
+    title: "Why I Started Running",
+    description:
+      "A human founder story about starting running at 210 lbs, learning patience, and building a life around forward motion.",
+    intro:
+      "Running did not begin as a brand, a training block, or a perfect morning routine. It began as a small decision to become someone who kept showing up, even when the first miles felt awkward and slow.",
+    sections: [
+      {
+        heading: "It started before running felt good",
+        body: [
+          "At 210 lbs, running was not instantly freeing. It was uncomfortable, exposed, and humbling. A few minutes could feel like a long conversation with every doubt in the room.",
+          "But there was something honest about it. You could not fake a run. You either put your shoes on and moved, or you did not. That simplicity made running feel possible before it felt enjoyable.",
+        ],
+      },
+      {
+        heading: "The first win was becoming consistent",
+        body: [
+          "The early goal was not speed. It was not a marathon. It was learning how to return after a hard day, how to start again after missing a workout, and how to let small progress count.",
+          "That lesson still sits underneath RaceIQ: the plan only matters if it helps a real person keep coming back.",
+        ],
+      },
+      {
+        heading: "Running became a way to trust the process",
+        body: [
+          "Eventually the short runs became longer runs. The runner who once wondered whether she belonged started thinking about marathons, trails, and ultras.",
+          "The transformation was not clean or dramatic every week. It was built through work, fatigue, heat, moved long runs, and a lot of imperfect consistency.",
+        ],
+      },
+    ],
+    cta:
+      "RaceIQ is built for the runner trying to keep becoming someone new without needing every week to go perfectly.",
+    related: ["how-i-lost-80-pounds-and-became-a-runner", "why-i-built-raceiq", "why-running-feels-so-hard-at-first"],
+  },
+  {
+    slug: "how-i-lost-80-pounds-and-became-a-runner",
+    title: "How I Lost 80 Pounds and Became a Runner",
+    description:
+      "An honest story about losing 80 pounds, becoming a runner, and learning that progress is built through imperfect consistency.",
+    intro:
+      "Losing 80 pounds was not a straight line, and becoming a runner did not happen because every run felt strong. It happened because enough ordinary days stacked up into a different life.",
+    sections: [
+      {
+        heading: "The change was built in small decisions",
+        body: [
+          "The beginning was not cinematic. It was deciding to move when it would have been easier not to. It was choosing a walk, then a jog, then a little more time on tired legs.",
+          "Weight loss and running both demanded patience. The body changed slowly. Confidence changed slowly too. The real shift was learning that slow progress still counts.",
+        ],
+      },
+      {
+        heading: "Running taught a different kind of discipline",
+        body: [
+          "Discipline was not pretending life was easy. It was learning how to keep going through full-time work, low-energy days, bad sleep, and schedules that did not care about the training plan.",
+          "Some weeks were strong. Some weeks were survival. The lesson was to adjust without quitting.",
+        ],
+      },
+      {
+        heading: "Becoming a runner is not a finish line",
+        body: [
+          "The story did not end at a number on the scale. Running opened the door to marathons, trail running, ultra goals, and a deeper respect for what consistent training can do.",
+          "That is part of why RaceIQ exists. Real runners are not made by perfect calendars. They are made by adapting, returning, and doing the next right thing.",
+        ],
+      },
+    ],
+    cta:
+      "RaceIQ helps runners protect momentum when real life interrupts the version of the plan that looked perfect on paper.",
+    related: ["why-i-started-running", "why-i-built-raceiq", "why-running-feels-so-hard-at-first"],
+  },
+  {
+    slug: "why-i-built-raceiq",
+    title: "Why I Built RaceIQ",
+    description:
+      "RaceIQ was built because rigid marathon training plans do not work for runners with jobs, fatigue, cross-training, heat, travel, and real life.",
+    intro:
+      "RaceIQ came from a simple frustration: most running plans are written like life is quiet. Mine was not. Most runners' lives are not.",
+    sections: [
+      {
+        heading: "The plan on paper kept missing the point",
+        body: [
+          "A spreadsheet can tell you what Tuesday should look like. It cannot always tell you what to do when Monday ran late, you slept badly, your legs are heavy, and the long run still matters.",
+          "After starting at 210 lbs and learning to run while working full time, I knew the hard part was not just doing the work. It was knowing how to adjust when life changed the work.",
+        ],
+      },
+      {
+        heading: "Rigid plans make normal runners feel like they failed",
+        body: [
+          "Miss a workout and the plan keeps moving. Ride Peloton instead and the training load disappears from the calendar. Move a long run and suddenly the whole week feels broken.",
+          "That is not coaching. Coaching should help you understand the tradeoff and keep building.",
+        ],
+      },
+      {
+        heading: "RaceIQ is the coach I wanted in the messy middle",
+        body: [
+          "RaceIQ exists for runners with full-time jobs, stress, bad sleep, heat, strength work, cycling, marathon goals, trail goals, and ultra dreams.",
+          "It is not about making training soft. It is about making training smarter, so the goal survives the actual week.",
+        ],
+      },
+    ],
+    cta:
+      "RaceIQ was built to help runners adjust training around the life they actually have, not the life a static plan assumes.",
+    related: ["why-most-marathon-training-plans-fail-real-people", "training-for-a-marathon-while-working-full-time", "how-to-adjust-marathon-training-when-life-gets-busy"],
+  },
+  {
+    slug: "why-most-marathon-training-plans-fail-real-people",
+    title: "Why Most Marathon Training Plans Fail Real People",
+    description:
+      "Most marathon plans assume perfect weeks. Learn why real runners need adaptive training around fatigue, work, missed runs, and life.",
+    intro:
+      "Most marathon plans are not useless. They fail because they are incomplete. They tell you what to do if the week behaves. Real weeks rarely behave.",
+    sections: [
+      {
+        heading: "Static plans assume stable lives",
+        body: [
+          "A traditional marathon plan can be helpful for structure: long runs, workouts, recovery days, mileage build, taper. The problem is what happens when the runner is not living inside ideal conditions.",
+          "Full-time work, family obligations, poor sleep, heat, travel, strength training, and cross-training all change how much stress a runner can absorb.",
+        ],
+      },
+      {
+        heading: "The failure point is usually adjustment",
+        body: [
+          "When a workout is missed, many runners either cram it in, skip it with guilt, or stack too many hard days together. None of those decisions are coaching.",
+          "A better plan helps decide what matters most this week, what can move, what should be easier, and what can be left alone.",
+        ],
+      },
+      {
+        heading: "Real runners need structure and flexibility",
+        body: [
+          "Flexibility does not mean random training. It means the plan has priorities. It knows the long run matters, recovery matters, and the body only adapts to stress it can actually recover from.",
+          "That is the reason to read the story of why RaceIQ was built: the product exists for the gap between ambition and real life.",
+        ],
+      },
+    ],
+    cta:
+      "RaceIQ helps runners keep the structure of marathon training while adapting the week when real life changes the plan.",
+    related: ["why-i-built-raceiq", "adaptive-marathon-training-plan", "how-to-adjust-marathon-training-when-life-gets-busy"],
+  },
+  {
+    slug: "training-for-a-marathon-while-working-full-time",
+    title: "Training for a Marathon While Working Full Time",
+    description:
+      "Practical advice for marathon training with a full-time job, including schedule stress, long runs, missed workouts, and recovery.",
+    intro:
+      "Training for a marathon while working full time is not just about finding hours. It is about managing total stress so the training can actually land.",
+    sections: [
+      {
+        heading: "Your job is part of the training environment",
+        body: [
+          "A late meeting, commute, deadline, or work trip can affect a workout even if it does not show up in your mileage. Stress is not the same as running, but it still changes recovery.",
+          "The best plan is built around the week you can repeat, not the fantasy week you wish you had.",
+        ],
+      },
+      {
+        heading: "Protect the few workouts that matter most",
+        body: [
+          "Most marathon weeks have a few anchors: a long run, one quality session, and enough easy running to stay consistent. When work gets busy, protect the anchors before chasing filler miles.",
+          "If you miss a run, do not automatically repay it. Look at what is coming next and keep the week balanced.",
+        ],
+      },
+      {
+        heading: "Use flexibility as a skill",
+        body: [
+          "Move the long run when you need to. Run easy when sleep is poor. Count the bike ride as work your body did. Adjusting is not failure; it is how adult runners keep training.",
+          "RaceIQ was built from that exact experience of training around full-time work and still wanting big goals.",
+        ],
+      },
+    ],
+    cta:
+      "RaceIQ helps marathon training fit around work stress, late nights, missed workouts, and the real schedule in front of you.",
+    related: ["why-i-built-raceiq", "marathon-training-full-time-job", "can-i-move-my-long-run"],
+  },
+  {
+    slug: "trail-running-for-beginners",
+    title: "Trail Running for Beginners",
+    description:
+      "A beginner-friendly guide to trail running: effort, pacing, hills, walking, safety, and how trail miles differ from road miles.",
+    intro:
+      "Trail running can feel like a different sport at first. That is part of the point. The ground changes, pace matters less, hills ask for patience, and walking can be smart training.",
+    sections: [
+      {
+        heading: "Let effort lead before pace",
+        body: [
+          "On trails, pace can swing wildly because of hills, footing, turns, mud, rocks, and heat. A road pace that feels easy may be impossible on a technical trail.",
+          "Begin by running by effort. If breathing and form stay controlled, you are doing useful work even if the watch looks slower than usual.",
+        ],
+      },
+      {
+        heading: "Walking hills is allowed",
+        body: [
+          "Many beginner trail runners waste energy trying to run every climb. Power hiking can be faster, calmer, and smarter, especially on long or steep trails.",
+          "Trails reward rhythm and patience more than ego. The goal is to keep moving efficiently.",
+        ],
+      },
+      {
+        heading: "Trail miles count differently",
+        body: [
+          "A six-mile trail run may take more time and create more muscular fatigue than six road miles. That matters when you are also training for road races, marathons, or longer trail goals.",
+          "RaceIQ is built around this kind of context: the training effect is more than the distance line on the calendar.",
+        ],
+      },
+    ],
+    cta:
+      "RaceIQ helps runners account for trail effort, hills, fatigue, and mixed training when deciding what to do next.",
+    related: ["why-i-built-raceiq", "heavy-legs-running", "running-in-heat-humidity"],
+  },
+  {
+    slug: "why-running-feels-so-hard-at-first",
+    title: "Why Running Feels So Hard at First",
+    description:
+      "Running often feels hard at first because your body, pacing, breathing, and confidence are all adapting. Here is how to keep going.",
+    intro:
+      "If running feels hard at first, that does not mean you are bad at it. It means your body is learning a new kind of work, and your brain has not yet collected enough proof that you can handle it.",
+    sections: [
+      {
+        heading: "Your easy pace may need to be easier than you think",
+        body: [
+          "Many new runners accidentally run too fast because the pace that feels like running also feels like work. Slowing down, adding walk breaks, and building time on feet can make training more sustainable.",
+          "Early running is less about proving toughness and more about teaching your body that you will come back again.",
+        ],
+      },
+      {
+        heading: "Confidence adapts too",
+        body: [
+          "The first weeks can feel awkward because every run is new information. Breathing, shoes, clothes, routes, soreness, weather, and self-talk all take energy.",
+          "With consistency, the unfamiliar becomes less loud. That is one reason small wins matter so much.",
+        ],
+      },
+      {
+        heading: "Hard does not mean impossible",
+        body: [
+          "The runner behind RaceIQ started at 210 lbs and did not begin with effortless miles. Running became possible through repetition, patience, and learning how to adjust instead of quitting.",
+          "If the run feels hard, the next move may be to slow down, shorten it, walk, recover, or try again tomorrow. That still counts.",
+        ],
+      },
+    ],
+    cta:
+      "RaceIQ is built for runners who need encouragement and smarter adjustments while they build consistency.",
+    related: ["why-i-started-running", "how-i-lost-80-pounds-and-became-a-runner", "why-i-built-raceiq"],
+  },
+  {
+    slug: "how-to-adjust-marathon-training-when-life-gets-busy",
+    title: "How to Adjust Marathon Training When Life Gets Busy",
+    description:
+      "Learn how to adjust marathon training around busy weeks, missed workouts, long runs, fatigue, work, travel, and poor sleep.",
+    intro:
+      "Busy weeks do not automatically ruin marathon training. The danger is pretending nothing changed, then forcing the original plan into a body and schedule that no longer match it.",
+    sections: [
+      {
+        heading: "Start by identifying the anchor workouts",
+        body: [
+          "When life gets busy, look for the sessions that matter most: usually the long run, one workout, and enough easy movement to keep consistency alive.",
+          "Everything else should be judged by whether it supports those anchors or just adds pressure.",
+        ],
+      },
+      {
+        heading: "Avoid stacking stress",
+        body: [
+          "Do not cram a missed workout, hard strength session, and long run into three days just because the calendar says those boxes still exist.",
+          "Training works when stress and recovery are paired. If work, travel, heat, or poor sleep already added stress, your running plan should notice.",
+        ],
+      },
+      {
+        heading: "Make the next decision, not the perfect decision",
+        body: [
+          "Sometimes the right adjustment is moving the long run. Sometimes it is shortening an easy day. Sometimes it is letting one missed run stay missed.",
+          "RaceIQ was built for these exact tradeoffs because rigid plans rarely explain what to do when real life gets loud.",
+        ],
+      },
+    ],
+    cta:
+      "RaceIQ helps runners adjust marathon training around busy weeks without turning one missed workout into a spiral.",
+    related: ["why-i-built-raceiq", "adaptive-marathon-training-plan", "training-for-a-marathon-while-working-full-time"],
+  },
 ];
 
 export const articleBySlug = new Map(articles.map((article) => [article.slug, article]));

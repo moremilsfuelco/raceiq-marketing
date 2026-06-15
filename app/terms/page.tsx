@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Terms",
@@ -15,6 +16,10 @@ export default function TermsPage() {
         <p>
           This is a placeholder terms page for RaceIQ. Replace this page before launch with final
           terms covering acceptable use, subscriptions, app behavior, disclaimers, and support.
+        </p>
+        <p>
+          Terms and support questions can be sent to{" "}
+          <a href={`mailto:${site.supportEmail}`}>{site.supportEmail}</a>.
         </p>
       </div>
     </section>

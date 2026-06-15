@@ -53,6 +53,16 @@ export default function FounderStory() {
             Read <Link href="/why-raceiq">why RaceIQ is different</Link> or start with the guide to
             an <Link href="/adaptive-marathon-training-plan">adaptive marathon training plan</Link>.
           </p>
+          <div className="coach-takeaway">
+            <span>More founder story</span>
+            <p>
+              Read <Link href="/why-i-started-running">why I started running</Link>,{" "}
+              <Link href="/how-i-lost-80-pounds-and-became-a-runner">
+                how I lost 80 pounds and became a runner
+              </Link>
+              , or the full story of <Link href="/why-i-built-raceiq">why I built RaceIQ</Link>.
+            </p>
+          </div>
         </article>
       </section>
       <AppCta />

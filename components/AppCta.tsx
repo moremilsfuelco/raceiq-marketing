@@ -1,4 +1,4 @@
-import { appStorePlaceholder } from "@/lib/site";
+import { appStorePlaceholder, site } from "@/lib/site";
 
 export function AppCta() {
   return (
@@ -14,7 +14,7 @@ export function AppCta() {
             <a className="button" href={appStorePlaceholder}>
               App Store placeholder
             </a>
-            <a className="button secondary" href="mailto:hello@runraceiq.com">
+            <a className="button secondary" href={`mailto:${site.supportEmail}`}>
               Contact RaceIQ
             </a>
           </div>

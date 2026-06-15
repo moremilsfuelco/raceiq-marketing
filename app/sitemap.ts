@@ -2,7 +2,17 @@ import type { MetadataRoute } from "next";
 import { articles } from "@/lib/articles";
 import { siteUrl } from "@/lib/site";
 
-const staticRoutes = ["", "/why-raceiq", "/founder-story", "/faq", "/privacy", "/terms", "/contact"];
+const staticRoutes = [
+  "",
+  "/why-raceiq",
+  "/founder-story",
+  "/faq",
+  "/privacy",
+  "/terms",
+  "/contact",
+  "/support",
+  "/runner-stories-guides",
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

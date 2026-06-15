@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { appStorePlaceholder } from "@/lib/site";
 
 export function Navigation() {
@@ -6,14 +7,15 @@ export function Navigation() {
     <header className="nav">
       <div className="container nav-inner">
         <Link className="brand" href="/" aria-label="RaceIQ home">
-          <span className="brand-mark">R</span>
+          <Image className="brand-icon" src="/raceiq-icon.png" alt="" width={38} height={38} priority />
           <span>RaceIQ</span>
         </Link>
         <nav className="nav-links" aria-label="Main navigation">
           <Link href="/why-raceiq">Why RaceIQ</Link>
           <Link href="/founder-story">Founder Story</Link>
           <Link href="/faq">FAQ</Link>
-          <Link href="/adaptive-marathon-training-plan">Guides</Link>
+          <Link href="/support">Support</Link>
+          <Link href="/runner-stories-guides">Guides</Link>
         </nav>
         <a className="button small" href={appStorePlaceholder}>
           App Store

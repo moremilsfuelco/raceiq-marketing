@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -16,6 +17,10 @@ export default function PrivacyPage() {
           This is a placeholder privacy policy for RaceIQ. Replace this page before launch with the
           final policy covering analytics, email signup, Apple Health usage, app data handling, and
           support contact workflows.
+        </p>
+        <p>
+          Privacy questions can be sent to{" "}
+          <a href={`mailto:${site.supportEmail}`}>{site.supportEmail}</a>.
         </p>
       </div>
     </section>
