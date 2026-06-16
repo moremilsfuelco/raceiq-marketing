@@ -730,6 +730,218 @@ p {
   margin-bottom: 0;
 }
 
+.gbty-home-feature,
+.gbty-hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(255, 47, 146, 0.18), transparent 24rem),
+    #050509;
+  border-block: 1px solid var(--line);
+}
+
+.gbty-home-grid,
+.gbty-hero-grid,
+.gbty-not-grid,
+.gbty-for-grid,
+.gbty-waitlist {
+  display: grid;
+  gap: 28px;
+}
+
+.gbty-home-note,
+.gbty-photo-placeholder {
+  border: 1px solid rgba(255, 47, 146, 0.3);
+  border-radius: 30px;
+  padding: 26px;
+  background:
+    linear-gradient(145deg, rgba(255, 47, 146, 0.2), rgba(255, 255, 255, 0.04)),
+    #11111d;
+  box-shadow: var(--shadow);
+}
+
+.gbty-home-note span,
+.gbty-photo-placeholder span,
+.gbty-phase span {
+  color: var(--pink-soft);
+  font: 850 0.84rem var(--font-geist-mono), monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.gbty-home-note strong,
+.gbty-photo-placeholder strong {
+  display: block;
+  margin-top: 12px;
+  color: var(--text);
+  font-size: clamp(2rem, 8vw, 4.4rem);
+  line-height: 0.98;
+}
+
+.gbty-hero {
+  padding: 72px 0 64px;
+}
+
+.gbty-hero h1 {
+  font-size: clamp(4rem, 17vw, 9rem);
+}
+
+.gbty-photo-placeholder {
+  min-height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background:
+    linear-gradient(180deg, transparent 0%, rgba(5, 5, 9, 0.72) 72%),
+    linear-gradient(135deg, rgba(255, 47, 146, 0.28), rgba(255, 255, 255, 0.035)),
+    #151521;
+}
+
+.gbty-not-section {
+  background: #09090f;
+}
+
+.gbty-word-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gbty-word-stack span {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  padding: 10px 13px;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.055);
+  font-weight: 800;
+}
+
+.gbty-story {
+  max-width: 820px;
+  font-size: clamp(1.08rem, 2vw, 1.22rem);
+}
+
+.gbty-story h2 {
+  margin-bottom: 30px;
+  font-size: clamp(2.4rem, 8vw, 5.1rem);
+}
+
+.gbty-story-block {
+  margin: 34px 0;
+}
+
+.gbty-story-block p {
+  margin: 0 0 16px;
+}
+
+.gbty-story-block p:only-child,
+.gbty-story-block p:first-child:last-child {
+  color: var(--text);
+  font-size: 1.22em;
+}
+
+.gbty-phase-list {
+  display: grid;
+  gap: 16px;
+}
+
+.gbty-phase {
+  display: grid;
+  gap: 18px;
+  border-top: 1px solid var(--line);
+  padding: 24px 0;
+}
+
+.gbty-phase h3 {
+  margin-top: 8px;
+  font-size: clamp(1.9rem, 6vw, 3.4rem);
+}
+
+.gbty-phase ul,
+.gbty-for-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.gbty-question {
+  border-left: 2px solid var(--pink);
+  padding-left: 14px;
+  color: var(--text);
+  font-weight: 800;
+}
+
+.gbty-honest {
+  background:
+    linear-gradient(90deg, rgba(255, 47, 146, 0.16), transparent 42%),
+    #050509;
+  border-block: 1px solid var(--line);
+}
+
+.gbty-honest-inner,
+.gbty-social-inner {
+  max-width: 840px;
+}
+
+.gbty-honest h2,
+.gbty-social h2 {
+  margin-bottom: 22px;
+}
+
+.gbty-for-list {
+  list-style: none;
+  padding: 0;
+}
+
+.gbty-for-list li {
+  border-bottom: 1px solid var(--line);
+  padding: 13px 0;
+  color: var(--text);
+  font-size: 1.08rem;
+  font-weight: 750;
+}
+
+.gbty-waitlist {
+  border: 1px solid rgba(255, 47, 146, 0.32);
+  border-radius: 30px;
+  padding: 26px;
+  background:
+    radial-gradient(circle at top right, rgba(255, 47, 146, 0.25), transparent 20rem),
+    #10101a;
+}
+
+.gbty-form {
+  display: grid;
+  gap: 14px;
+}
+
+.gbty-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--text);
+  font-weight: 800;
+}
+
+.gbty-form input,
+.gbty-form textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 14px 15px;
+  color: var(--text);
+  background: rgba(0, 0, 0, 0.22);
+  font: inherit;
+}
+
+.gbty-form textarea {
+  resize: vertical;
+}
+
+.gbty-social {
+  background: rgba(255, 255, 255, 0.035);
+}
+
 .adjustment span {
   border: 1px solid rgba(255, 255, 255, 0.09);
   border-radius: 14px;
@@ -1080,7 +1292,7 @@ p {
   }
 
   .product-visual-grid {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .product-phone:nth-child(even) {
@@ -1095,6 +1307,20 @@ p {
   .email-capture {
     grid-template-columns: minmax(0, 1fr) minmax(300px, 0.72fr);
     align-items: center;
+  }
+
+  .gbty-home-grid,
+  .gbty-hero-grid,
+  .gbty-not-grid,
+  .gbty-for-grid,
+  .gbty-waitlist {
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.78fr);
+    align-items: center;
+  }
+
+  .gbty-phase {
+    grid-template-columns: minmax(0, 0.9fr) minmax(220px, 0.65fr) minmax(180px, 0.55fr);
+    align-items: start;
   }
 
   .article-mid-cta {

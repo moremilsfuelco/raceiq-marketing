@@ -114,6 +114,31 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section gbty-home-feature">
+        <div className="container gbty-home-grid">
+          <div>
+            <span className="eyebrow">New from Morgan</span>
+            <h2>Get Back To You</h2>
+            <p className="lead">
+              A future 12-week program for women who want to rebuild self-trust, movement,
+              strength, running or walking, realistic nutrition, and confidence.
+            </p>
+            <p>
+              Not a crash diet. Not punishment. A way back to the woman you miss being.
+            </p>
+            <div className="cta-row">
+              <Link className="button" href="/get-back-to-you">Join the waitlist</Link>
+              <Link className="button secondary" href="/get-back-to-you#story">Read Morgan&apos;s story</Link>
+            </div>
+          </div>
+          <div className="gbty-home-note">
+            <span>12 weeks</span>
+            <strong>Start showing up again.</strong>
+            <p>Movement, strength, walking/running, food habits, confidence, and self-trust.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="section manifesto">
         <div className="container manifesto-grid">
           <div>

@@ -16,6 +16,7 @@ export function Footer() {
         <div className="footer-links">
           <Link href="/privacy">Privacy Policy</Link>
           <Link href="/terms">Terms</Link>
+          <Link href="/get-back-to-you">Get Back To You</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/support">Support</Link>
           <a href={appStorePlaceholder}>App Store</a>

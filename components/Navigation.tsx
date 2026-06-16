@@ -12,6 +12,7 @@ export function Navigation() {
         </Link>
         <nav className="nav-links" aria-label="Main navigation">
           <Link href="/why-raceiq">Why RaceIQ</Link>
+          <Link href="/get-back-to-you">Get Back To You</Link>
           <Link href="/founder-story">Founder Story</Link>
           <Link href="/faq">FAQ</Link>
           <Link href="/support">Support</Link>

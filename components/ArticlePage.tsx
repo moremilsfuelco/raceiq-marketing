@@ -65,7 +65,8 @@ export function ArticlePage({ article }: { article: Article }) {
             <p>
               These guides come from the same belief behind{" "}
               <Link href="/why-i-built-raceiq">why RaceIQ was built</Link>: rigid plans do not work
-              for runners with real lives.
+              for runners with real lives. For the more personal chapter, read about{" "}
+              <Link href="/get-back-to-you">Get Back To You</Link>.
             </p>
           </div>
           <div className="cta-panel">

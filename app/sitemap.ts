@@ -12,6 +12,7 @@ const staticRoutes = [
   "/contact",
   "/support",
   "/runner-stories-guides",
+  "/get-back-to-you",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

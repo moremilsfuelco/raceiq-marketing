@@ -3,28 +3,23 @@ import Image from "next/image";
 const screenshots = [
   {
     title: "Coach chat",
-    src: "/screenshots/coach-chat.png",
-    alt: "RaceIQ coach chat screenshot showing tired runner guidance",
+    src: "/screenshots/coach-training-signal.png",
+    alt: "RaceIQ Coach screenshot showing training signal and recovery guidance",
   },
   {
-    title: "Adaptive plan change",
-    src: "/screenshots/adaptive-plan-change.png",
-    alt: "RaceIQ adaptive plan change screenshot moving a tempo workout",
-  },
-  {
-    title: "Training plan",
+    title: "Adaptive plan changes",
     src: "/screenshots/training-plan.png",
-    alt: "RaceIQ training plan screenshot for a marathon build week",
+    alt: "RaceIQ training plan screenshot showing poor sleep and high fatigue adjustments",
   },
   {
-    title: "Race dashboard",
+    title: "Race finder",
+    src: "/screenshots/race-finder.png",
+    alt: "RaceIQ race finder screenshot showing course matching prompts",
+  },
+  {
+    title: "Dashboard and RaceIQ Score",
     src: "/screenshots/dashboard-score.png",
-    alt: "RaceIQ dashboard screenshot with RaceIQ Score and race countdown",
-  },
-  {
-    title: "Profile and HealthKit",
-    src: "/screenshots/profile-healthkit.png",
-    alt: "RaceIQ profile screenshot showing Apple Health connected",
+    alt: "RaceIQ dashboard screenshot showing RaceIQ Score and readiness details",
   },
 ];
 

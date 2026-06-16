@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
 import { EmailSignup } from "@/components/EmailSignup";
 import { articles } from "@/lib/articles";
@@ -69,6 +70,20 @@ export default function RunnerStoriesGuidesPage() {
             {bySlug(storySlugs).map((article) => (
               <ArticleCard article={article} key={article.slug} />
             ))}
+          </div>
+        </div>
+      </section>
+      <section className="section founder-feature">
+        <div className="container founder-grid">
+          <div className="founder-kicker">Get Back To You</div>
+          <div>
+            <span className="eyebrow">Future program</span>
+            <h2>A 12-week program for women who want to feel like themselves again.</h2>
+            <p>
+              Morgan&apos;s personal story, the 12-week framework, and the waitlist for the first
+              Get Back To You group.
+            </p>
+            <Link className="button secondary" href="/get-back-to-you">Read the story and join the waitlist</Link>
           </div>
         </div>
       </section>

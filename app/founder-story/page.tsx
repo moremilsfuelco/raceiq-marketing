@@ -63,6 +63,13 @@ export default function FounderStory() {
               , or the full story of <Link href="/why-i-built-raceiq">why I built RaceIQ</Link>.
             </p>
           </div>
+          <div className="coach-takeaway">
+            <span>Get Back To You</span>
+            <p>
+              Morgan is also building <Link href="/get-back-to-you">Get Back To You</Link>, a
+              12-week program for women rebuilding confidence, movement, strength, and self-trust.
+            </p>
+          </div>
         </article>
       </section>
       <AppCta />
