@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 const storyBlocks = [
-  ["I don't remember exactly when I stopped being myself.", "Maybe it was college."],
+  ["I don’t remember exactly when I stopped being myself.", "Maybe it was college."],
   [
     "I had always been athletic growing up. I played softball, ran track, went to the gym, and cared way too much about being thin. I was actually anorexic in high school and probably weighed around 105 pounds. I thought skinny meant happy. I thought if I could just control my body enough, everything else would fall into place.",
     "Then college happened.",
@@ -105,7 +105,7 @@ const storyBlocks = [
     "I still sometimes want to be 110 pounds.",
     "I still compare myself to women who are younger, faster, leaner.",
     "I still look in the mirror some days and see the flaws before I see the progress.",
-    "I'm human.",
+    "I’m human.",
   ],
   [
     "But I know something now that I didn't know at 210 pounds.",
@@ -118,14 +118,14 @@ const storyBlocks = [
   [
     "And I know there are women reading this who feel exactly the way I felt.",
     "Maybe you're a mom. Maybe you went through a divorce. Maybe you've spent years putting everyone else first.",
-    "Maybe you don't recognize yourself anymore. Maybe you don't even know where to start.",
+    "Maybe you don’t recognize yourself anymore. Maybe you don’t even know where to start.",
     "I do. Because I was you.",
   ],
   [
-    "And that's why I'm creating Get Back To You.",
+    "And that’s why I’m creating Get Back To You.",
     "Not because I have all the answers. Not because I became perfect.",
-    "But because I know what it's like to feel lost.",
-    "And I know what it's like to slowly, painfully, beautifully find yourself again.",
+    "But because I know what it’s like to feel lost.",
+    "And I know what it’s like to slowly, painfully, beautifully find yourself again.",
   ],
 ];
 
@@ -228,7 +228,7 @@ export default function GetBackToYouPage() {
 
       <section className="section" id="story">
         <article className="container gbty-story">
-          <span className="eyebrow">Morgan's story</span>
+          <span className="eyebrow">Morgan&rsquo;s story</span>
           <h2>I Didn’t Lose 80 Pounds. I Just Wanted to Be Myself Again.</h2>
           {storyBlocks.map((block, index) => (
             <div className="gbty-story-block" key={index}>
